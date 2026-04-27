@@ -1,3 +1,3 @@
-import { createHandler } from '../dist/server/server.js'
+const server = require('../dist/server/server.js')
 
-export default createHandler()
+module.exports = server.default

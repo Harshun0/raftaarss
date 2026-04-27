@@ -3,6 +3,11 @@
   "outputDirectory": "dist/client",
   "installCommand": "npm install",
   "framework": "vite",
+  "functions": {
+    "dist/server.js": {
+      "runtime": "nodejs18.x"
+    }
+  },
   "rewrites": [
     {
       "source": "/(.*)",

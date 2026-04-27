@@ -2,10 +2,5 @@
   "buildCommand": "npm run build",
   "outputDirectory": "dist/client",
   "installCommand": "npm install",
-  "framework": "vite",
-  "functions": {
-    "dist/server/worker-entry-D_pG9kl4.js": {
-      "runtime": "nodejs18.x"
-    }
-  }
+  "framework": "vite"
 }
